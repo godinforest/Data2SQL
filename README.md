@@ -30,11 +30,11 @@ git clone https://github.com/godinforest/Data2SQL.git
 cd data_pump
 ```
 
-Run the application in development mode (useful for debugging, but processes data slower):
+2. Run the application in development mode (useful for debugging, but processes data slower):
 ```bash
 cargo run
 ```
-Recommended for large files: Run the application in release mode. This enables compiler optimizations, making data parsing and SQLite insertions significantly faster:
+2.1 Recommended for large files: Run the application in release mode. This enables compiler optimizations, making data parsing and SQLite insertions significantly faster:
 ```bash
 cargo run --release
 ```
