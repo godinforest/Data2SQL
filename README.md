@@ -1,6 +1,7 @@
 # Data2SQL
 
-A fast, desktop-based Extract, Transform, and Load (ETL) application built with Rust and Iced. Data Pump ETL allows you to drag and drop structured and semi-structured data files to automatically convert and load them into SQLite databases.
+A fast, desktop-based Extract, Transform, and Load (ETL) application built with Rust and Iced. This app allows you to drag and drop structured and semi-structured data files to automatically convert and load them into SQLite databases. Don't spend your tokens! Just drag, drop and your NoSQL data now SQL-ready.
+'t
 
 ## Features
 
@@ -26,7 +27,7 @@ You can build and launch the application directly from your terminal.
 
 1. Clone the repository and navigate to the project directory:
 ```bash
-git clone <repository-url>
+git clone https://github.com/godinforest/Data2SQL.git
 cd data_pump
 ```
 
