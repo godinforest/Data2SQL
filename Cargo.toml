@@ -1,0 +1,27 @@
+[package]
+name = "Data2SQL"
+version = "0.1.0"
+edition = "2021"
+description = "ETL GUI utility for converting JSON, CSV, TSV, and XML to SQLite"
+
+[dependencies]
+# GUI framework
+iced = { version = "0.12", features = ["tokio", "advanced"] }
+
+# Async runtime for non-blocking UI tasks
+rfd = "0.14"
+tokio = { version = "1", features = ["full"] }
+
+# File parsers (Extract layer)
+serde = { version = "1.0", features = ["derive"] }
+serde_json = "1.0"
+csv = "1.3"
+quick-xml = "0.31"
+
+# Database (Load layer)
+# The 'bundled' feature compiles SQLite from C source, ensuring cross-platform compatibility
+rusqlite = { version = "0.31", features = ["bundled"] }
+
+# Telemetry and utilities
+chrono = "0.4"
+uuid = { version = "1.8", features = ["v4", "fast-rng"] }
