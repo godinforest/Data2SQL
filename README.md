@@ -1,7 +1,6 @@
 # Data2SQL
 
 A fast, desktop-based Extract, Transform, and Load (ETL) application built with Rust and Iced. This app allows you to drag and drop structured and semi-structured data files to automatically convert and load them into SQLite databases. Don't spend your tokens! Just drag, drop and your NoSQL data now SQL-ready.
-'t
 
 ## Features
 
